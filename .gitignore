@@ -1,0 +1,48 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Fișiere generate la compilarea proiectelor .NET
+**/bin/
+**/obj/
+
+# Rezultatele testelor
+TestResults/
+*.trx
+
+# Fișiere temporare și jurnale
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Fișiere temporare Microsoft Word
+~$*.docx
+
+# Fișiere generate de sistem
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Baze de date SQLite generate la rulare
+**/RuntimeData/*.db
+**/bin/**/*.db
+**/obj/**/*.db
+
+# Fișiere SQLite temporare
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Fișiere de publicare
+**/publish/
+
+# Pachete locale
+packages/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
